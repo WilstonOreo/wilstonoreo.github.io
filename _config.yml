@@ -50,10 +50,17 @@ address:
 markdown: kramdown
 permalink: pretty
 
+collections:
+  portfolio:
+    output: true
+  photos:
+    output: true
+
 #for posts
 defaults:
   - scope:
       path: ""
-      type: "posts"
+      type: "category"
     values:
       permalink: ""
+      layout: category
