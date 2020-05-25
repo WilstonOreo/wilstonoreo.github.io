@@ -1,0 +1,51 @@
+-
+- title: Omnidome
+  subtitle: Arbitrary 360° surface mapping software
+  url: https://omnido.me
+  img: omnidome/logo.png
+  description: >-
+    OMNIDOME is an arbitrary surface projection mapping tool.
+    It allows you to map any physical room and project virtual content back on to it.
+    What it does, it turns the whole world into a 360° VR display, making VR a shared and social experience.
+    Omnidome is OpenSource, multi-platform and designed for artists. On MacOS X, Omnidome has a <a href="http://syphon.v002.info/">Syphon</a> interface for easily streaming content from other VJ softwares into it. Omnidome has a plugin interface for
+    easily writing extensions for different canvases, mapping modes and input types.
+    Omnidome is written entirely by myself and proudly made with C++11 and Qt5.
+    <a href="https://vimeo.com/167266452">Demo Video</a>
+- title: Tomo
+  subtitle: G-Code generator aka Slicer
+  img: tomo/logo.png
+  description: >-
+    Tomo is a modular G-Code generator (aka "slicer") for 3D printers.
+    It converts given input geometries (like STL triangle meshes) into
+    3D printer instructions (G-Code).
+    Is intended to be extensible for other types of fabrication, too.
+    Initially started as semester project, it finally became my
+    <a href="assets/MA.pdf">master thesis</a> which was supervised by Marc Alexa.
+    For my thesis, I received the best grade 1.0.
+    Tomo is written in C++11 and uses Eigen and Boost libraries. The interface is made with Qt.
+
+- title: Computer science studies
+  subtitle: Seminars and class projects
+  description: >-
+    I attended seminars about
+    <a href="assets/portfolio/cs/GPGPU.pdf">GPGPU</a> and
+    <a href="assets/portfolio/cs/RAMS.pdf">recent advantages in GPU programming</a>,
+    <a href="assets/portfolio/cs/IntraPred.pdf">HEVC intra prediction</a>,
+    <a href="assets/portfolio/cs/Botnetze.pdf">botnets</a> and
+    <a href="assets/portfolio/cs/SeminarPaper_Topic20_Zattoo_338042.pdf">peer to peer video streaming in Zattoo.</a>
+    In another group semester project, I ported the tree-based hashing feature matching algorithm (TBH),
+    an improved version of the SIFT Feature Matching Algorithm) from CPU to
+    on the GPU using CUDA. Although due to heavy branching, the algorithm was
+    not well suited for a GPU implementation, we still achieved a
+    <a href="assets/portfolio/cs/Abgabe_Handout.pdf">slight speed up</a>.
+    In 2011, wrote a paper about
+    <a href="assets/portfolio/cs/Winkelmann_CloudComputing_Energieeffizienz.pdf">Cloud Computing and Energy Efficiency</a>,
+    already aware of climate change and the rebound effect.
+- title: Philosophy
+  subtitle: Semester essays
+  description: >-
+    I also attended several philosophy classes about
+    <a href="assets/portfolio/philosophy/Winkelmann_Kant_Prolegomena.pdf">Immanuel Kant,</a>
+    <a href="assets/portfolio/philosophy/DuK.pdf">democracy and capitalism,</a>
+    <a href="assets/portfolio/philosophy/NI_KI.pdf">artificial intelligence</a> and
+    <a href="assets/portfolio/philosophy/Technikphilosophie.pdf">philosophy of technology.</a>

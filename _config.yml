@@ -7,6 +7,16 @@ keywords: "software, photography, winkelmann, consulting, developer, project man
 skills: "Advisor - Developer - Photographer"
 meta_author: Winkelmann Michael
 
+urls:
+    - text: About Me
+      url: /about
+    - text: Blog
+      url: /blog
+    - text: Photos
+      url: /photos
+    - text: Contact Me
+      url : /contact
+
 # Google webmaster tools
 google_verify:
 
@@ -34,7 +44,6 @@ color:
 footer:
   copyright: Michael Winkelmann
   location: Berlin
-  social: Around the Web
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -49,18 +58,3 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-collections:
-  portfolio:
-    output: true
-  photos:
-    output: true
-
-#for posts
-defaults:
-  - scope:
-      path: ""
-      type: "category"
-    values:
-      permalink: ""
-      layout: category

@@ -1,12 +1,15 @@
+---
+layout: default
+title: My photos
+permalink: /photos/
+---
+<link rel="stylesheet" href="/assets/css/photos.css">
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Photos</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-        </div>
-    </section>
+<div class="row" style="display: flex; flex-wrap: wrap">
+<div class="column" style="flex: 50%;">
+    {% for photo in site.data.photos %}
+          <img alt="{{ photo.title }}" src="{{ site.baseurl }}/assets/photos/{{photo.original}}" />
+    {% endfor %}
+
+</div>
+</div>

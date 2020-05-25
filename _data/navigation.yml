@@ -1,10 +1,8 @@
-- name: Blog
-  link: /blog.html
-- name: Portfolio
-  link: /portfolio.html
-- name: Photos
-  link: /photos.html
 - name: About
-  link: /about.html
+  link: /
+#- name: Blog
+#  link: /blog
+#- name: Photos
+#  link: /photos
 - name: Contact
-  link: /contact.html
+  link: /contact

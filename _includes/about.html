@@ -1,24 +1,81 @@
  <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point! </p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="https://github.com/jeromelachaud/freelancer-theme" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
-                </div>
-            </div>
+    <link rel="stylesheet" href="/assets/css/about.css">
+    <section class="success" id="about"
+      <div class="container">
+  			<div class="row">
+  				<div class="col-lg-6 col-lg-offset-3 text-center">
+            <br>
+            <img class="img-responsive img-circle img-center" style="margin-left: auto;
+  margin-right: auto" src="assets/profile.jpg" alt=""/>
+            <br>
+
+  					<p>
+  						Hi! My name is Micha.
+              <br>
+              I am a passionate Software Engineer and Consultant with a passion for slim techstacks and clear, non-bloated, sustainable software solutions.
+  						Currently, I work as Senior Qt Advisor for the <a class="text-primary" href="https://www.qt.io">Qt Company</a>
+              to assure that customer's are successful with their Qt Projects.
+  						<br>
+              <br>
+              Besides coding, I like <a class="text-primary" href="500px.com">photography</a>,
+              travelling and <a class="text-primary" href="https://rateyourmusic.com/~themirrorpool">music and movies</a>.
+              <br>
+              I used to make <a class="text-primary" href="https://soundcloud.com/mirrorpool">music</a>, too.
+  					</p>
+  				</div>
+  			</div>
+  		</div>
+
+  	</section>
+
+  	<section id="skills">
+  		<div class="container">
+  			<div class="row">
+  			  <div class="col-lg-12 text-center">
+  				  <h2>Expertise</h2>
+            <hr class="star-primary">
+  			  </div>
         </div>
-    </section>
+
+          {% for skill in site.data.skills %}
+  			<div class="row" style="padding-bottom: 24px; padding-top: 24px">
+            <div class="col-sm-2">
+              <br>
+              <img src="assets/portfolio/services/{{ skill.img }}" class="img-responsive img-center" style="margin-top: auto;
+  margin-bottom: auto;"  alt="{{ skill.title }}"/>
+            </div>
+            <div class="col-sm-10">
+  					       <h3>{{ skill.title }}</h3>
+  					       <h4>{{ skill.subtitle }}</h4>
+                   <p>{{ skill.description }}</p>
+            </div>
+  		  </div>
+          {% endfor %}
+  		</div>
+  	</section>
+
+  	<section id="portfolio" class="white-bg padding-top-bottom">
+  		<div class="container">
+        <div class="row">
+  			  <div class="col-lg-12 text-center">
+  				  <h2>My Works</h2>
+            <hr class="star-primary">
+          </div>
+
+          {% for portfolio in site.data.portfolio %}
+  			<div class="row" style="padding-bottom: 24px; margin-bottom: 12px">
+            <div class="col-sm-2">
+              <br>
+              <img src="assets/portfolio/{{ portfolio.img }}" class="img-responsive img-center" style="margin-top: auto;
+  margin-bottom: auto;"  alt="{{ skill.title }}"/>
+            </div>
+            <div class="col-sm-10" style="padding-bottom: 24px">
+  					       <h3>{{ portfolio.title }}</h3>
+  					       <h4>{{ portfolio.subtitle }}</h4>
+                   <p>{{ portfolio.description }}</p>
+            </div>
+            <br>
+  		  </div>
+          {% endfor %}
+  		</div>
+  	</section>

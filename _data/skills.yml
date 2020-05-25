@@ -1,0 +1,54 @@
+- title: Software Engineering
+  subtitle: C / C++ / Python / JS
+  img: SoftwareDev.png
+  description: >-
+    I am a professional software engineer and preferably in <b>C</b> and <b>C++</b>,
+    but I know <b>Python</b> and <b>JavaScript</b>, too. When designing software architectures,
+    I have a strong focus on <b>modularity</b>, <b>performance</b> and utilizing <b>design patterns</b>.
+    I like to program on devices with or without OSes.
+- title: Digitalisation and Sustainability
+  subtitle: Thinking about the world of tomorrow
+  img: DigiSus.png
+  description: >-
+    In recent years, I became aware of environmental and sustainability.
+    I strongly believe that sustainability and digitalization have to be regarded as a unit for livable future.
+    I am part of the <a href="https://bits-und-baeume.org">Bits und Bäume Movement</a> and
+    active in the slack channel of <a href="https://climateaction.tech">ClimateAction.tech</a>.
+    For Bits und Bäume, I gave a talk about <a href="https://peertube.social/videos/watch/6addc421-31f0-4126-be68-fe53e540d6a8">collaborative video conferencing and writing tools</a>. 
+- title: Project Management
+  subtitle: Lean and agile
+  img: Embedded.png
+  description: >-
+    When supervising software projects,
+    I consider <b>agile development</b> using ticket-based systems like <b>Scrum</b> or <b>Kanban</b> and methods like
+    <b>continuous integration</b> as the key for building and delivering an awesome product.
+- title: UI / UX
+  subtitle: Qt / HTML5 / VueJS
+  img: UI.png
+  description: >-
+    Because I am a visual person, I like coding smart <b>user interfaces</b>, too.
+    I prefer <b>minimalistic</b> self-explaining interfaces with a clear workflow and omitting distracting and redundant <a href="http://omnido.me/manual">elements</a>.
+- title: Computer Graphics
+  subtitle: Rendering / OpenGL / Shaders
+  img: CG.png
+  description: >-
+    I love computer graphics since my youth. At the age of 18, I wrote a fast <b>ray tracer in assembler</b> and won the 4th price in the federal contest of
+    <a href="http://www.jugend-forscht.de/projektdatenbank/interaktives-raytracing.html">Jugend forscht</a> (from 9000 submissions).
+    I did my master thesis in the <a href="http://www.cg.tu-berlin.de">computer graphics group at TU Berlin</a> and attended
+    all courses there. For my <b>GLSL</b> shader coding skills, you can check out my <a href="https://www.shadertoy.com/user/WilstonOreo">ShaderToy</a> profile.
+    Currently, my most popular project is <b><a href="https://vimeo.com/167266452">Omnidome.</a></b>
+- title: Image Processing
+  subtitle: Video Coding / Streaming / Image Processing / GPGPU
+  img: ImageProcessing.png
+  description: >-
+    I worked for Fraunhofer in the image processing department for several years where I learned the fundamentals about
+    <b>video coding and streaming</b>, most notably <b>scalable video coding</b> and <b>MPEG DASH</b>.
+    During my master studies, where I attended several seminars and classes about <b>computer vision</b> and <b>GPU programming</b>.
+- title: Rapid Manufacturing
+  subtitle: 3D Printing / Parametric Modeling
+  img: RapidManufacturing.png
+  description: >-
+    I am experienced with Rapid Manufacturing Technologies like <b>3D printing</b>, <b>laser cutting</b> and <b>CNC milling</b>.
+    For my <a href="assets/MA.pdf">master thesis</a>, I wrote a software that converts triangle meshes and other geometries into 3D printer instructions.
+    I was also host on <b>Chaosradio</b> and where I talked about <a href="http://chaosradio.ccc.de/cr190.html">3D printing</a>.
+    Here is my <a href="http://www.thingiverse.com/WilstonOreo/designs">Thingiverse Page.</a>
