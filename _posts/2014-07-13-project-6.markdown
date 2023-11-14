@@ -1,11 +1,8 @@
 ---
 layout: default
 modal-id: 6
-date: 2014-07-15
 img: submarine.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+category: Code Audits
+description: In addition to our training and workshop offerings, I provide <b>in-depth code audit services</b> to ensure the highest standards of quality and security in your software projects. I will meticulously <b>review your codebase</b>, identifying potential vulnerabilities, <b>optimizing performance bottlenecks</b>, and ensuring adherence to industry best practices. We can discuss the findings of the audit in a workshop, and I deliver the audit results as pull request or as detailed audit report - whatever is required.
 ---

@@ -1,59 +1,26 @@
 <!-- Portfolio Grid Section -->
 <section class="success" id="services">
-  <div class="container">
+  <div class="container portfolio-flex-grid">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2>Services</h2>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-10 col-lg-offset-1">
-        <h3>Development Support</h3>
-        <p>I support you with your software solution at every stage of the lifecycle.
-          Support can come as <b>hands-on implementation</b>, <b>bugfix</b>, <b>code review</b> or <b>workshop</b>.
-        </p>
+    <div class="portfolio-flex-row">
+      {% for post in site.posts %}
+      <div class="portfolio-flex-item portfolio-item">
+        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+          <div class="caption">
+            <div class="caption-content">
+              <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+          </div>
+          <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+        </a>
+        <h3>{{ post.category }}</h3>
+
       </div>
-      <div class="col-lg-10 col-lg-offset-1">
-        <h3>Customized solutions</h3>
-        <p>No two businesses are alike, and neither should their software solutions be. 
-          I craft bespoke programs tailored to your specific needs, ensuring seamless integration with your existing processes.
-          Your vision is at the forefront of our collaboration.
-          Through open communication and a collaborative mindset, I work closely with you to understand your goals and deliver solutions that surpass expectations.
-        </p>
-      </div>
-      <div class="col-lg-10 col-lg-offset-1">
-        <h3>Trainings</h3>
-        <p>
-          I offer trainings in my fields of expertise, particularly <b>Qt and C++</b>.
-          My training and workshop programs are available in <b>flexible formats</b>, including onsite sessions, online training, and ongoing support.
-          This allows your team to learn at their own pace and convenience.
-        </p>
-        </div>
-      </div>
-      <div class="col-lg-10 col-lg-offset-1">
-        <h3>Workshops</h3>
-        <p>
-          Learning by doing is at the core of my workshops. 
-          During the workshops, we develop <b>prototypes</b> or conduct an in-depth analysis of a specific technical aspect.
-          I bring <b>real-world experience</b> into the workshop, offering valuable insights and practical tips that go beyond online documentation and textbooks.
-        </p>
-      </div>
-      <div class="col-lg-10 col-lg-offset-1">
-        <h3>Project Management</h3>
-        <p>With my experience in project management, I ensure that your software initiatives are not 
-          just technically sound but also seamlessly executed. From conceptualization to delivery,
-          I orchestrate projects with a keen eye on timelines and strategic alignment,
-          ensuring your software projects not only meet but exceed expectations.</p>
-      </div>
-      <div class="col-lg-10 col-lg-offset-1">
-        <h3>Code Audits</h3>
-        <p>In addition to our training and workshop offerings, I provide <b>in-depth code audit services</b> to ensure the highest standards of quality and security in your software projects. 
-          I will meticulously <b>review your codebase</b>, identifying potential vulnerabilities, <b>optimizing performance bottlenecks</b>, and ensuring adherence to industry best practices.
-          We can discuss the findings of the audit in a workshop, and I deliver the audit results as pull request or as detailed audit report - whatever is required. 
-        </p>
-      </div>
+      {% endfor %}
     </div>
-
-
   </div>
 </section>

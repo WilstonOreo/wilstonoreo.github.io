@@ -1,11 +1,8 @@
 ---
 layout: default
 modal-id: 4
-date: 2014-07-15
-img: game.png
+img: circus.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+category: Trainings
+description: I offer trainings in my fields of expertise, particularly <b>Qt and C++</b>.<br>My training and workshop programs are available in <b>flexible formats</b>, including onsite sessions, online training, and ongoing support.<br>This allows your team to learn at their own pace and convenience.
 ---

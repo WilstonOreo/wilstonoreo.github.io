@@ -13,8 +13,8 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
-            <h2>{{ post.title }}</h2>
-            <hr class="star-primary">
+            <h2>{{ post.category }}</h2>
+            <br>
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% if post.description %}
             <p>{{ post.description }}</p>
@@ -28,11 +28,6 @@
               {% if post.project-date %}
               <li>Date:
                 <strong>{{ post.project-date }}</strong>
-              </li>
-              {% endif %}
-              {% if post.category %}
-              <li>Service:
-                <strong>{{ post.category }}</strong>
               </li>
               {% endif %}
             </ul>

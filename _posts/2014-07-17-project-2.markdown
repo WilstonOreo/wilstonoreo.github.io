@@ -1,11 +1,8 @@
 ---
 layout: default
 modal-id: 2
-date: 2014-07-17
 img: cake.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+category: Customized Solutions
+description: No two businesses are alike, and neither should their software solutions be.<br>I craft bespoke programs tailored to your specific needs, ensuring seamless integration with your existing processes.<br>Your vision is at the forefront of our collaboration. Through open communication and a collaborative mindset, I work closely with you to understand your goals and deliver solutions that surpass expectations.
 ---
