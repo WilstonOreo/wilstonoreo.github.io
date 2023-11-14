@@ -13,6 +13,14 @@ p {
     text-align: justify; 	
 }
 
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(30%);
+    transform: translateY(30%);
+}
+
 p.small {
     font-size: 16px;
 }
